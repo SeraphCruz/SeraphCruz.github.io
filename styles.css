@@ -1,8 +1,9 @@
 body {
 background: rgb(255, 255, 255);
-color: #323d79;
+color: rgba(8,66,94,255);
 font-family: 'Open Sans', sans-serif;
 font-size: 15px;
+font-weight: bold;
 letter-spacing: 2px;
 }
 img {
@@ -24,7 +25,7 @@ padding: 30px;
 text-align: center;
 margin-top: 10px;
 padding: 20px;
-border: 1px solid white;
+border: 1px solid rgb(0, 0, 0);
 border-width: 2px;
 width: 290px;
 display: block;
@@ -34,7 +35,7 @@ border-radius: 40px;
 }
 a {
 text-decoration: none;
-color: #323d79;
+color: rgba(8,66,94,255);
 transition: color 1s;
 }
 .bottom-text {
@@ -44,6 +45,6 @@ font-size: 20px;
 font-weight: bold;
 }
 a:hover {
-color: #000;
-background: #fff;
+color: rgba(8,66,94,255);
+background: rgba(163,84,69,255);
 }
